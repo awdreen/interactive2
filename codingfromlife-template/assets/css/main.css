@@ -8,25 +8,25 @@ body {
 	margin: 100px auto;
 	background: white;
 	position: relative;
+
 }
 
-#triangle {
-	width: 0;
-	height: 0;
-	border-left: 75px solid transparent;
-	border-right: 75px solid transparent;
-	border-bottom: 150px solid yellow;
-	position: absolute;
-	top: 203px;
-	left: 60px;
+#orange {
+	width: 30px;
+    height: 30px;
+    background: orange;
+    border-radius: 150px;
+    top: 340px;
+    left: 150px;
+    position: absolute;
 }
 
 #square {
-	width: 150px;
-	height: 150px;
-	background: red;
-	top: 203px;
-	left: 270px;
+	width: 400px;
+    height: 70px;
+    background: red;
+    top: 310px;
+    left: 20px;
 	position: absolute;
 
 	/* uncomment to add keyframe animation */
@@ -34,23 +34,23 @@ body {
 
 }
 
-#circle {
-	width: 150px;
-	height: 150px;
-	background: blue;
-	border-radius: 150px;
-	top: 203px;
-	left: 480px;
-	position: absolute;
+#pot {
+	    width: 70px;
+    height: 70px;
+    background: #800000;
+    top: 303px;
+    left: 56px;
+    position: absolute;
+    clip-path: polygon(50% 0%, 53% 0, 99% 27%, 100% 70%, 80% 90%, 50% 91%, 20% 90%, 0% 70%, 0 25%, 46% 0);
 }
 
 #clip {
 	width: 150px;
 	height: 150px;
-	background: green;
-	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-	top: 203px;
-	left: 690px;
+	background: yellow;
+	    clip-path: polygon(28% 3%, 37% 9%, 43% 0%, 45% 10%, 59% 5%, 53% 16%, 65% 19%, 49% 23%, 55% 36%, 43% 30%, 67% 77%, 66% 79%, 36% 31%, 29% 41%, 30% 28%, 16% 29%, 25% 20%, 14% 15%, 28% 13%);
+    top: 203px;
+	
 	position: absolute;
 
 	/* uncomment for css transitions */
