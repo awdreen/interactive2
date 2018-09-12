@@ -12,18 +12,18 @@ body {
 }
 
 #orange {
-	width: 30px;
-    height: 30px;
+    width: 300px;
+    height: 300px;
     background: orange;
     border-radius: 150px;
-    top: 340px;
-    left: 150px;
+    top: 450px;
+    left: 500px;
     position: absolute;
 }
 
 #square {
-	width: 400px;
-    height: 70px;
+	width: 900px;
+    height: 300px;
     background: red;
     top: 310px;
     left: 20px;
@@ -35,23 +35,32 @@ body {
 }
 
 #pot {
-	    width: 70px;
-    height: 70px;
+	    width: 200px;
+    height: 200px;
     background: #800000;
     top: 303px;
-    left: 56px;
+    left: 223px;
     position: absolute;
     clip-path: polygon(50% 0%, 53% 0, 99% 27%, 100% 70%, 80% 90%, 50% 91%, 20% 90%, 0% 70%, 0 25%, 46% 0);
 }
-
 #clip {
-	width: 150px;
-	height: 150px;
-	background: yellow;
-	    clip-path: polygon(28% 3%, 37% 9%, 43% 0%, 45% 10%, 59% 5%, 53% 16%, 65% 19%, 49% 23%, 55% 36%, 43% 30%, 67% 77%, 66% 79%, 36% 31%, 29% 41%, 30% 28%, 16% 29%, 25% 20%, 14% 15%, 28% 13%);
+    width: 500px;
+    height: 500px;
+    background: yellow;
+    clip-path: polygon(28% 3%, 37% 9%, 43% 0%, 45% 10%, 59% 5%, 53% 16%, 65% 19%, 49% 23%, 55% 36%, 43% 30%, 67% 77%, 66% 79%, 36% 31%, 29% 41%, 30% 28%, 16% 29%, 25% 20%, 14% 15%, 28% 13%);
+    top: -70px;
+    position: absolute;
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+#dove {
+	width: 400px;
+    height: 150px;
+    background: orange;
+    clip-path: polygon(90% 22%, 71% 11%, 60% 53%, 43% 51%, 34% 12%, 29% 67%, 11% 72%, 37% 75%, 40% 85%, 74% 85%, 79% 70%, 99% 68%, 72% 63%, 68% 55%, 75% 22%);
     top: 203px;
-	
-	position: absolute;
+    left: 500px;
+    position: absolute;
 
 	/* uncomment for css transitions */
 	/* transition: all 400ms ease; */
