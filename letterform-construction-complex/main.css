@@ -1,0 +1,276 @@
+:root {
+  --fontHeight: 200px;
+    --color: #020202;
+    --negativeColor: white; 
+    --baseKern: 30px;
+  --stemWidth: 15px;
+}
+
+.fontBox {
+  background: var(--negativeColor);
+  height:var(--fontHeight);
+  padding:50px;
+
+}
+
+.circle {
+    width: 130px;
+    height: 170px;
+    border-radius: 190px;
+    transform: rotate(20deg);
+    background: radial-gradient(#000000 10% ,#000 60%);
+}
+
+.counter.two {
+    width: 100px;
+    height: 130px;
+    border-radius: 100px;
+    transform: rotate(20deg);
+}
+
+.counter.three {
+  height: 80px;
+  background: var(--negativeColor);
+  width: 70px;
+}
+
+a {
+ color:red; 
+}
+
+/* define some letter parts */
+
+.stem {
+  background: var(--color);
+  width:var(--stemWidth); 
+  height: var(--fontHeight);
+}
+
+.leftLeaning {
+  transform:rotate(-20deg) 
+}
+
+.rightLeaning {
+  transform:rotate(20deg) 
+}
+
+.crossBar {
+  background: var(--color);  
+  height: var(--stemWidth); 
+}
+
+.counter {
+  transform-origin: center;
+  background: var(--negativeColor);    
+}
+
+
+/* setup so our letters to have equal spacing */
+.rootLetter {
+  float:left;
+  position:relative; 
+  padding-right:var(--baseKern); 
+}
+
+.letter {
+  height:calc(var(--fontHeight) + 20px);
+}
+
+.letter * {
+  position:absolute;
+  /*border: 1px solid yellow;*/
+}
+
+/* positioning parts of letters */
+
+/* A */
+.a {
+  left: 90px;
+}
+.a>.one {
+  top: 20px;
+    left: 50px;
+}
+.a>.two {
+  left:110px;  
+}
+.a>.three {
+    left: 60px;
+    top: 13px;
+    width: 70px;
+    transform: rotate(20deg);
+}
+.a>.four {
+   top: 200px;
+    width: 70px;
+    left: -10px;
+    transform: rotate(20deg);
+}
+
+.a>.counter {
+  height: 20px;
+  background: var(--negativeColor);
+}
+
+/* O */
+
+
+
+.o {
+  width: 130px;
+}
+
+.o>.circle {
+    top: 10px;
+}
+
+.o>.counter.two {
+    top: 30px;
+left: 15px;
+}
+
+.o>.counter.three {
+  left: 65px;
+  top: 60px;
+}
+
+/* D */
+.d {
+  left: 90px;
+}
+.d>.one {
+    top: -30px;
+    left: 60px;
+}
+.d>.two {
+  left:110px;  
+}
+.d>.three {
+    left: 75px;
+    top: -30px;
+    width: 70px;
+    transform: rotate(20deg);
+}
+.d>.four {
+   top: 200px;
+    width: 70px;
+    left: -10px;
+    transform: rotate(20deg);
+}
+
+.d>.counter {
+  height: 20px;
+  background: var(--negativeColor);
+}
+
+.d>.stem {
+    height: 245px;
+}
+
+/* C */
+
+.c {
+  width: 130px;
+}
+
+.c>.circle {
+  width: 130px;
+  height: 180px;
+  top: 10px;
+  border-radius: 100px;
+  background: radial-gradient(#fff 10% ,#000 60%);
+}
+
+.c>.counter.two {
+  width: 90px;
+  height: 140px;
+  border-radius: 100px;  
+  top: 30px;
+  left: 20px;
+}
+
+.c>.counter.three {
+height: 70px;
+    background: var(--negativeColor);
+    width: 70px;
+    left: 70px;
+    top: 78px;
+}
+.c>.three {
+    left: 90px;
+    top: 80px;
+    width: 70px;
+    transform: rotate(20deg);
+}
+.c>.four {
+    top: 140px;
+    width: 70px;
+    left: 70px;
+    transform: rotate(20deg);
+}
+
+/* E */
+
+.e {
+  width: 130px;
+}
+
+.e>.circle {
+  width: 130px;
+  height: 180px;
+  top: 10px;
+  border-radius: 100px;
+  background: radial-gradient(#fff 10% ,#000 60%);
+}
+
+.e>.counter.two {
+  width: 90px;
+  height: 140px;
+  border-radius: 100px;  
+  top: 30px;
+  left: 20px;
+}
+
+.e>.counter.three {
+height: 70px;
+    background: var(--negativeColor);
+    width: 70px;
+    left: 70px;
+    top: 78px;
+}
+.e>.three {
+left: 24px;
+    top: 65px;
+    width: 115px;
+    transform: rotate(20deg);
+}
+.e>.four {
+    top: 140px;
+    width: 70px;
+    left: 70px;
+    transform: rotate(20deg);
+}
+
+/* change our stroke width when a letter is hovered 
+
+.letter * {
+  transition: all 200ms ease;
+}
+
+.a:hover {
+  --stemWidth:8px; 
+}
+
+.b:hover .counter {
+  transform: scale(.05);
+}
+
+.c:hover .counter.two {
+    transform: scale(.05);
+}
+
+.c:hover .counter.three {
+    transform: scaleY(.05);
+}
+*/
+
