@@ -2,7 +2,7 @@
   --fontHeight: 200px;
     --color: #020202;
     --negativeColor: white; 
-    --baseKern: 30px;
+      --baseKern: 50px;
   --stemWidth: 15px;
 }
 
@@ -89,13 +89,13 @@ a {
 }
 .a>.one {
   top: 20px;
-    left: 50px;
+    left: 70px;
 }
 .a>.two {
   left:110px;  
 }
 .a>.three {
-    left: 60px;
+    left: 80px;
     top: 13px;
     width: 70px;
     transform: rotate(20deg);
@@ -103,7 +103,7 @@ a {
 .a>.four {
    top: 200px;
     width: 70px;
-    left: -10px;
+    left: 10px;
     transform: rotate(20deg);
 }
 
@@ -112,27 +112,39 @@ a {
   background: var(--negativeColor);
 }
 
-/* O */
-
-
-
-.o {
-  width: 130px;
+/*B*/
+.b {
+  left: 90px;
+}
+.b>.one {
+    top: -30px;
+    left: -45px;
+}
+.b>.two {
+  left:110px;  
+}
+.b>.three {
+    left: -30px;
+    top: -30px;
+    width: 70px;
+    transform: rotate(20deg);
+}
+.b>.four {
+   top: 200px;
+    width: 70px;
+    left: -115px;
+    transform: rotate(20deg);
 }
 
-.o>.circle {
-    top: 10px;
+.b>.counter {
+  height: 20px;
+  background: var(--negativeColor);
 }
 
-.o>.counter.two {
-    top: 30px;
-left: 15px;
+.b>.stem {
+    height: 245px;
 }
 
-.o>.counter.three {
-  left: 65px;
-  top: 60px;
-}
 
 /* D */
 .d {
@@ -140,13 +152,13 @@ left: 15px;
 }
 .d>.one {
     top: -30px;
-    left: 60px;
+    left: 80px;
 }
 .d>.two {
   left:110px;  
 }
 .d>.three {
-    left: 75px;
+    left: 95px;
     top: -30px;
     width: 70px;
     transform: rotate(20deg);
@@ -154,7 +166,7 @@ left: 15px;
 .d>.four {
    top: 200px;
     width: 70px;
-    left: -10px;
+    left: 10px;
     transform: rotate(20deg);
 }
 
@@ -251,6 +263,111 @@ left: 24px;
     transform: rotate(20deg);
 }
 
+/*B*/
+.b {
+  left: 90px;
+}
+.b>.one {
+    top: -30px;
+    left: -45px;
+}
+.h>.two {
+  left:110px;  
+}
+.h>.three {
+    left: -30px;
+    top: -30px;
+    width: 70px;
+    transform: rotate(20deg);
+}
+.h>.four {
+   top: 200px;
+    width: 70px;
+    left: -115px;
+    transform: rotate(20deg);
+}
+
+.h>.counter {
+  height: 20px;
+  background: var(--negativeColor);
+}
+
+.h>.stem {
+    left: 19px;
+    height: 214px;
+    top: 49px;
+}
+.h>.counter.three {
+height: 70px;
+    background: var(--negativeColor);
+    width: 70px;
+    left: 70px;
+    top: 78px;
+}
+/* Special Circle for H*/
+.h2 {
+  width: 130px;
+}
+
+.h2>.circle {
+    top: 20px;
+    left: -10px;
+}
+
+.h2>.counter.two {
+    top: 40px;
+    left: 5px;
+}
+
+.h2>.counter.three {
+    left: -30px;
+    top: 120px;
+    transform: rotate(20deg);
+    width: 140px;
+}
+
+/* O2 (for things like B's)*/
+
+
+
+.o2 {
+  width: 130px;
+}
+
+.o2>.circle {
+    top: 50px;
+    left: -10px;
+}
+
+.o2>.counter.two {
+    top: 70px;
+    left: 5px;
+}
+
+.o2>.counter.three {
+  left: 65px;
+  top: 60px;
+}
+
+/* O (for things like D's and A's)*/
+
+.o {
+  width: 130px;
+}
+
+.o>.circle {
+    top: 10px;
+}
+
+.o>.counter.two {
+    top: 30px;
+left: 15px;
+}
+
+.o>.counter.three {
+  left: 65px;
+  top: 60px;
+}
 /* change our stroke width when a letter is hovered 
 
 .letter * {
