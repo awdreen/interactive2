@@ -275,15 +275,15 @@ left: 24px;
   left:110px;  
 }
 .h>.three {
-    left: -30px;
-    top: -30px;
+    left: -22px;
+    top: 146px;
     width: 70px;
     transform: rotate(20deg);
 }
 .h>.four {
-   top: 200px;
+    top: 248px;
     width: 70px;
-    left: -115px;
+    left: -41px;
     transform: rotate(20deg);
 }
 
@@ -320,10 +320,11 @@ height: 70px;
 }
 
 .h2>.counter.three {
-    left: -30px;
-    top: 120px;
-    transform: rotate(20deg);
-    width: 140px;
+
+      left: -12px;
+    top: 113px;
+    transform: rotate(19deg);
+    width: 120px;
 }
 
 /* O2 (for things like B's)*/
