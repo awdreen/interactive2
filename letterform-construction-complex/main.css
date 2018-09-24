@@ -22,7 +22,7 @@
 }
 
 .counter.two {
-    width: 100px;
+    width: 102px;
     height: 130px;
     border-radius: 100px;
     transform: rotate(20deg);
@@ -145,6 +145,26 @@ a {
     height: 245px;
 }
 
+/* O2 (for things like B's)*/
+
+.o2 {
+  width: 130px;
+}
+
+.o2>.circle {
+    top: 50px;
+    left: -10px;
+}
+
+.o2>.counter.two {
+    top: 70px;
+    left: 5px;
+}
+
+.o2>.counter.three {
+  left: 65px;
+  top: 60px;
+}
 
 /* D */
 .d {
@@ -271,87 +291,508 @@ left: 24px;
     top: -30px;
     left: -45px;
 }
-.h>.two {
-  left:110px;  
-}
-.h>.three {
-    left: -22px;
-    top: 146px;
-    width: 70px;
-    transform: rotate(20deg);
-}
-.h>.four {
-    top: 248px;
-    width: 70px;
-    left: -41px;
-    transform: rotate(20deg);
-}
 
-.h>.counter {
-  height: 20px;
-  background: var(--negativeColor);
-}
-
-.h>.stem {
-    left: 19px;
-    height: 214px;
-    top: 49px;
-}
-.h>.counter.three {
-height: 70px;
-    background: var(--negativeColor);
-    width: 70px;
-    left: 70px;
-    top: 78px;
-}
-/* Special Circle for H*/
-.h2 {
+/*F*/
+.f {
   width: 130px;
 }
 
-.h2>.circle {
-    top: 20px;
-    left: -10px;
+/* 
+using z-index on an 
+absolutely positioned 
+element, make this part
+of the letter go on top
+of the 'top' (.f2) of the f 
+*/
+
+.f1 {
+  position: absolute;
+  z-index: 100;
 }
 
-.h2>.counter.two {
-    top: 40px;
-    left: 5px;
+.f1>.stem.one {
+  left: 19px;
+  height: 204px;
+  top: 35px;
 }
 
-.h2>.counter.three {
+.f1>.three {
+  left: -14px;
+  top: 146px;
+  width: 70px;
+  transform: rotate(20deg);
+  background: black;
+}
 
-      left: -12px;
-    top: 113px;
-    transform: rotate(19deg);
+.f1>.four {
+  top: 228px;
+  width: 70px;
+  left: -44px;
+  transform: rotate(20deg);
+}
+
+.f1>.five {
+  top: 136px;
+    width: 70px;
+    left: -44px;
+    transform: rotate(109deg);
+}
+.f1>.six {
+    top: 159px;
+    width: 70px;
+    left: 19px;
+    transform: rotate(109deg);
+}
+
+.f1>.seven {
+  top: 97px;
+  width: 70px;
+  left: 123px;
+  transform: rotate(20deg);
+}
+/* top of the f */
+
+
+/* 
+using z-index on an 
+absolutely positioned 
+element, make this part
+of the letter go below
+the stem and crossbar 
+(.f1) of the f 
+*/
+
+.f2 {
+  width: 130px;
+  position: absolute;
+  z-index: 0;
+}
+
+.f2>.circle {
+  top: 0px;
+  left: 41px;
+}
+
+.f2>.counter.two {
+  top: 16px;
+  left: 58px;
+}
+
+.f2>.counter.three {
+  left: 38px;
+  top: 93px;
+  transform: rotate(19deg);
+  width: 120px;
+}
+
+/*G*/
+.g1 {
+  position: absolute;
+  z-index: 100;
+}
+
+.g1>.stem.one {
+left: 185px;
+    height: 204px;
+    top: 35px;
+}
+
+.g1>.three {
+    left: 193px;
+    top: 29px;
+    width: 70px;
+    transform: rotate(20deg);
+    background: black;
+}
+
+.g1>.four {
+    top: 202px;
+    width: 70px;
+    left: 9px;
+  transform: rotate(20deg);
+}
+
+/* bottom of the g */
+
+
+/* 
+using z-index on an 
+absolutely positioned 
+element, make this part
+of the letter go below
+the stem and crossbar 
+(.f1) of the f 
+*/
+
+.g2 {
+  width: 130px;
+  position: absolute;
+  z-index: 0;
+}
+
+.g2>.circle {
+    top: 154px;
+    left: 29px;
+}
+
+.g2>.counter.two {
+top: 174px;
+    left: 42px;
+}
+
+.g2>.counter.three {
+    left: 42px;
+    top: 147px;
+    transform: rotate(20deg);
     width: 120px;
 }
-
-/* O2 (for things like B's)*/
-
-
-
-.o2 {
+.o3 {
   width: 130px;
 }
 
-.o2>.circle {
-    top: 50px;
-    left: -10px;
+.o3>.circle {
+    top: 10px;
+    left: 66px;
 }
 
-.o2>.counter.two {
-    top: 70px;
-    left: 5px;
+.o3>.counter.two {
+    top: 30px;
+    left: 81px;
 }
 
-.o2>.counter.three {
+.o3>.counter.three {
   left: 65px;
   top: 60px;
 }
 
-/* O (for things like D's and A's)*/
 
+/*H*/
+.h {
+  width: 130px;
+}
+
+.h1 {
+  position: absolute;
+  z-index: 100;
+}
+
+.h1>.stem.one {
+    left: 252px;
+    height: 204px;
+    top: 35px;
+}
+
+.h1>.three {
+    left: 285px;
+    top: 305px;
+    width: 70px;
+    transform: rotate(20deg);
+    background: black;
+}
+
+.h1>.four {
+    top: 266px;
+    width: 70px;
+    left: 177px;
+    transform: rotate(20deg);
+}
+
+.h1>.five {
+    top: 27px;
+    width: 70px;
+    left: 261px;
+    transform: rotate(20deg);
+}
+
+/* bottom of the h */
+
+
+.h2 {
+  width: 130px;
+  position: absolute;
+  z-index: 0;
+}
+
+.h2>.circle {
+    top: 177px;
+    left: 210px;
+}
+
+.h2>.counter.two {
+    top: 195px;
+    left: 225px;
+}
+
+.h2>.counter.three {
+left: 183px;
+    top: 289px;
+    transform: rotate(19deg);
+    width: 140px;
+}
+
+/*I*/
+.i {
+  width: 130px;
+}
+
+
+.i>.stem.one {
+    left: 252px;
+    height: 204px;
+    top: 35px;
+}
+
+.i>.three {
+    left: 260px;
+    top: 30px;
+    width: 70px;
+    transform: rotate(20deg);
+    background: black;
+}
+
+.i>.four {
+    top: 229px;
+    width: 70px;
+    left: 187px;
+    transform: rotate(20deg);
+}
+
+.i2 {
+  width: 130px;
+}
+
+.i2>.circle {
+    top: -28px;
+    left: 290px;
+    width: 40px;
+    height: 40px;
+}
+
+.i2>.counter.two {
+    top: -18px;
+    left: 300px;
+    /* border: 1px solid red; */
+    width: 20px;
+    height: 20px;
+}
+
+
+/*J*/
+.j1 {
+  position: absolute;
+  z-index: 100;
+}
+
+.j1>.stem.one {
+    left: 269px;
+    height: 204px;
+    top: 35px;
+}
+
+.j1>.three {
+    left: 274px;
+    top: 29px;
+    width: 70px;
+    transform: rotate(20deg);
+    background: black;
+}
+
+.j1>.four {
+    top: 202px;
+    width: 70px;
+    left: 91px;
+  transform: rotate(20deg);
+}
+
+/* bottom of the j */
+
+
+/* 
+using z-index on an 
+absolutely positioned 
+element, make this part
+of the letter go below
+the stem and crossbar 
+(.f1) of the f 
+*/
+
+.j2 {
+  width: 130px;
+  position: absolute;
+  z-index: 0;
+}
+
+.j2>.circle {
+    top: 154px;
+    left: 112px;
+}
+
+.j2>.counter.two {
+    top: 174px;
+    left: 126px;
+}
+
+.j2>.counter.three {
+    left: 126px;
+    top: 147px;
+    transform: rotate(20deg);
+    width: 120px;
+}
+.j3>.circle {
+    top: -28px;
+    left: 306px;
+    width: 40px;
+    height: 40px;
+}
+
+.j3>.counter.two {
+    top: -18px;
+    left: 316px;
+    width: 20px;
+    height: 20px;
+}
+
+/*K*/
+.k {
+  z-index: 100;
+}
+
+.k>.stem.one {
+    left: 318px;
+    height: 204px;
+    top: 35px;
+}
+
+.k>.three {
+    left: 324px;
+    top: 29px;
+    width: 70px;
+    transform: rotate(20deg);
+    background: black;
+}
+
+.k>.four {
+    top: 224px;
+    width: 70px;
+    left: 255px;
+    transform: rotate(20deg);
+}
+
+.k>.five {
+    top: 181px;
+    width: 126px;
+    left: 297px;
+    transform: rotate(60deg);
+}
+.k>.six {
+    top: 111px;
+    width: 99px;
+    left: 326px;
+    transform: rotate(150deg);
+}
+.k>.seven {
+    left: 381px;
+    top: 84px;
+    width: 70px;
+    transform: rotate(20deg);
+    background: black;
+
+}
+.k>.eight {
+    left: 352px;
+    top: 234px;
+    width: 70px;
+    transform: rotate(20deg);
+    background: black;
+}
+
+/*L*/
+.l {
+  z-index: 100;
+}
+
+.l>.stem.one {
+    left: 523px;
+    height: 233px;
+    top: 28px;
+}
+
+.l>.three {
+    left: 533px;
+    top: 29px;
+    width: 70px;
+    transform: rotate(20deg);
+    background: black;
+}
+
+.l>.four {
+    top: 244px;
+    width: 70px;
+    left: 454px;
+    transform: rotate(20deg);
+}
+
+/*M*/
+.m {
+  width: 130px;
+  z-index: 100;
+}
+
+
+.m>.stem.one {
+left: 670px;
+    height: 204px;
+    top: 35px;
+}
+
+.m>.three {
+    left: 675px;
+    top: 30px;
+    width: 70px;
+    transform: rotate(20deg);
+    background: black;
+}
+
+.m>.four {
+    top: 229px;
+    width: 70px;
+    left: 605px;
+    transform: rotate(20deg);
+}
+.m>.five {
+    top: 259px;
+    width: 70px;
+    left: 718px;
+    transform: rotate(20deg);
+}
+.m2 {
+  width: 130px;
+  position: absolute;
+  z-index: 0;
+}
+
+.m2>.circle {
+    top: 79px;
+    left: 654px;
+    height: 225px;
+}
+
+.m2>.counter.two {
+    top: 94px;
+    left: 669px;
+    height: 196px;
+}
+
+.m2>.counter.three {
+    left: 614px;
+    top: 238px;
+    transform: rotate(19deg);
+    width: 140px;
+    height: 100px;
+}
+
+
+/* O (for things like D's and A's)*/
 .o {
   width: 130px;
 }
@@ -368,6 +809,525 @@ left: 15px;
 .o>.counter.three {
   left: 65px;
   top: 60px;
+}
+
+/*P*/
+.p {
+  left: 90px;
+}
+.p>.one {
+    top: 30px;
+    left: -74px;
+}
+.p>.two {
+  left:110px;  
+}
+.p>.three {
+    left: -57px;
+    top: 25px;
+    width: 70px;
+    transform: rotate(20deg);
+}
+.p>.four {
+    top: 266px;
+    width: 70px;
+    left: -145px;
+    transform: rotate(20deg);
+}
+
+.p>.counter {
+  height: 20px;
+  background: var(--negativeColor);
+}
+
+.p>.stem {
+height: 245px;
+}
+
+
+.p2 {
+  width: 130px;
+}
+
+.p2>.circle {
+    top: 50px;
+    left: -10px;
+}
+
+.p2>.counter.two {
+    top: 70px;
+    left: 5px;
+}
+
+.p2>.counter.three {
+  left: 65px;
+  top: 60px;
+}
+
+/*Q*/
+.q {
+  left: 90px;
+}
+.q>.one {
+    top: 69px;
+    left: 65px;
+}
+.q>.two {
+  left:110px;  
+}
+.q>.three {
+    left: 80px;
+    top: 67px;
+    width: 70px;
+    transform: rotate(20deg);
+}
+.q>.four {
+    top: 281px;
+    width: 70px;
+    left: 31px;
+    transform: rotate(-23deg);
+}
+.q>.five {
+    left: 65px;
+    top: 266px;
+    width: 70px;
+    transform: rotate(20deg);
+}
+.q>.counter {
+  height: 20px;
+  background: var(--negativeColor);
+}
+
+.q>.stem {
+height: 245px;
+}
+
+
+.q2 {
+  width: 130px;
+}
+
+.q2>.circle {
+    top: 50px;
+    left: -10px;
+}
+
+.q2>.counter.two {
+    top: 70px;
+    left: 5px;
+}
+
+.q2>.counter.three {
+  left: 65px;
+  top: 60px;
+}
+
+/*R*/
+.r {
+  width: 130px;
+}
+
+.r1 {
+  position: absolute;
+  z-index: 100;
+}
+
+.r1>.stem.one {
+  left: 19px;
+  height: 204px;
+  top: 35px;
+}
+
+.r1>.three {
+    left: 25px;
+    top: 37px;
+    width: 70px;
+    transform: rotate(20deg);
+    background: black;
+}
+
+.r1>.four {
+    top: 228px;
+    width: 70px;
+    left: -44px;
+    transform: rotate(20deg);
+}
+
+.r1>.five {
+    top: 147px;
+    width: 70px;
+    left: 102px;
+    transform: rotate(20deg);
+}
+
+/* top of the r */
+
+.r2 {
+  width: 130px;
+  position: absolute;
+  z-index: 0;
+}
+
+.r2>.circle {
+  top: 74px;
+    left: 14px;
+}
+
+.r2>.counter.two {
+    top: 91px;
+    left: 28px;
+}
+
+.r2>.counter.three {
+    left: 11px;
+    top: 131px;
+    transform: rotate(19deg);
+    width: 133px;
+    height: 150px;
+}
+/*T*/
+.t {
+  z-index: 100;
+}
+
+.t>.stem.one {
+    left: 100px;
+    height: 233px;
+    top: 28px;
+}
+
+.t>.three {
+    left: 110px;
+    top: 29px;
+    width: 70px;
+    transform: rotate(20deg);
+    background: black;
+}
+
+.t>.four {
+    top: 244px;
+    width: 70px;
+    left: 30px;
+    transform: rotate(20deg);
+}
+
+.t>.five {
+    top: 152px;
+    width: 70px;
+    left: 67px;
+    transform: rotate(20deg);
+}
+
+.t>.six {
+    top: 140px;
+    width: 70px;
+    left: 30px;
+    transform: rotate(109deg);
+}
+
+.t>.seven {
+    top: 166px;
+    width: 70px;
+    left: 100px;
+    transform: rotate(109deg);
+}
+/* U */
+
+.u {
+  width: 130px;
+}
+
+.u>.circle {
+    width: 130px;
+    height: 180px;
+    top: 89px;
+    border-radius: 100px;
+    background: black;
+    left: 197px;
+}
+
+.u>.counter.two {
+width: 90px;
+    height: 140px;
+    border-radius: 100px;
+    top: 109px;
+    left: 218px;
+}
+
+.u>.counter.three {
+    height: 70px;
+    background: var(--negativeColor);
+    width: 70px;
+    left: 254px;
+    top: 78px;
+}
+.u>.three {
+    left: 226px;
+    top: 97px;
+    width: 70px;
+    transform: rotate(109deg);
+}
+.u>.four {
+    top: 112px;
+    width: 70px;
+    left: 281px;
+    transform: rotate(109deg);
+}
+
+/*V*/
+.v {
+  z-index: 100;
+}
+
+.v>.stem.one {
+    left: 316px;
+    height: 189px;
+    top: 107px;
+}
+.v>.three {
+    left: 259px;
+    top: 209px;
+    width: 189px;
+    transform: rotate(130deg);
+    background: black;
+}
+
+.v>.four {
+    top: 281px;
+    width: 70px;
+    left: 259px;
+    transform: rotate(20deg);
+}
+
+.v>.five {
+    top: 104px;
+    width: 70px;
+    left: 317px;
+    transform: rotate(20deg);
+}
+.v>.six {
+    top: 138px;
+    width: 70px;
+    left: 387px;
+    transform: rotate(20deg);
+}
+/* W */
+
+.w {
+  width: 130px;
+}
+
+.w>.circle {
+width: 130px;
+    height: 180px;
+    top: 127px;
+    border-radius: 100px;
+    background: black;
+    left: 430px;
+}
+
+.w>.counter.two {
+    width: 90px;
+    height: 140px;
+    border-radius: 100px;
+    top: 145px;
+    left: 450px;
+
+}
+
+
+.w2 {
+  width: 130px;
+}
+
+.w2>.circle {
+    width: 130px;
+    height: 180px;
+    top: 128px;
+    border-radius: 100px;
+    background: black;
+    left: 345px;
+}
+
+.w2>.counter.two {
+    width: 90px;
+    height: 140px;
+    border-radius: 100px;
+    top: 150px;
+    left: 365px;
+}
+
+.w2>.counter.three {
+height: 243px;
+    background: var(--negativeColor);
+    width: 67px;
+    left: 346px;
+    top: 28px;
+    transform: rotate(101deg);
+}
+.w2>.three {
+    left: 246px;
+    top: 154px;
+    width: 70px;
+    transform: rotate(20deg);
+}
+.w2>.four {
+    top: 178px;
+    width: 70px;
+    left: 330px;
+    transform: rotate(20deg);
+}
+.w2>.five {
+    top: 194px;
+    width: 70px;
+    left: 436px;
+    transform: rotate(20deg);
+}
+/*X*/
+.x {
+  z-index: 100;
+}
+
+.x>.stem.one {
+    left: 416px;
+    height: 189px;
+    top: 107px;
+}
+.x>.three {
+    left: 330px;
+    top: 191px;
+    width: 189px;
+    transform: rotate(153deg);
+    background: black;
+}
+
+.x>.four {
+    top: 281px;
+    width: 70px;
+    left: 356px;
+    transform: rotate(20deg);
+}
+
+.x>.five {
+    top: 226px;
+    width: 70px;
+    left: 310px;
+    transform: rotate(109deg);
+}
+.x>.six {
+    top: 98px;
+    width: 70px;
+    left: 420px;
+    transform: rotate(20deg);
+}
+.x>.seven {
+    top: 154px;
+    width: 70px;
+    left: 473px;
+    transform: rotate(109deg);
+}
+
+/*Y*/
+.y1 {
+  position: absolute;
+  z-index: 100;
+}
+
+.y1>.stem.one {
+    left: 585px;
+    height: 209px;
+    top: 140px;
+}
+
+.y1>.four {
+top: 303px;
+    width: 70px;
+    left: 408px;
+    transform: rotate(20deg);
+}
+
+/* bottom of the g */
+
+.y2 {
+  width: 130px;
+  position: absolute;
+  z-index: 0;
+}
+
+.y2>.circle {
+    top: 262px;
+    left: 428px;
+}
+
+.y2>.counter.two {
+    top: 285px;
+    left: 442px;
+}
+
+.y2>.counter.three {
+    left: 442px;
+    top: 256px;
+    transform: rotate(19deg);
+    width: 120px;
+}
+.o4 {
+  width: 130px;
+}
+
+.o4>.circle {
+top: 85px;
+    left: 489px;
+}
+
+.o4>.counter.two {
+    top: 110px;
+    left: 503px;
+}
+
+.o4>.counter.three {
+    left: 505px;
+    top: 89px;
+    width: 143px;
+    height: 69px;
+    transform: rotate(20deg);
+}
+
+/*Z*/
+.z {
+  z-index: 100;
+}
+
+.z>.stem.one {
+    left: 676px;
+    height: 189px;
+    top: 107px;
+}
+.z>.three {
+    left: 602px;
+    top: 94px;
+    width: 120px;
+    transform: rotate(20deg);
+    background: black;
+}
+
+.z>.four {
+    top: 295px;
+    width: 120px;
+    left: 644px;
+    transform: rotate(20deg);
+}
+
+.z>.five {
+    top: 71px;
+    width: 70px;
+    left: 564px;
+    transform: rotate(109deg);
+}
+.z>.six {
+    top: 318px;
+    width: 70px;
+    left: 728px;
+    transform: rotate(109deg);
 }
 /* change our stroke width when a letter is hovered 
 
