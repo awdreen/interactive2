@@ -1329,6 +1329,426 @@ top: 85px;
     left: 728px;
     transform: rotate(109deg);
 }
+
+/*one*/
+.i1 {
+  z-index: 100;
+}
+
+.i1>.stem.one {
+    left: 803px;
+    height: 189px;
+    top: 107px;
+}
+.i1>.three {
+    left: 782px;
+    top: 94px;
+    width: 70px;
+    transform: rotate(20deg);
+    background: black;
+}
+
+.i1>.six {
+    top: 285px;
+    width: 70px;
+    left: 739px;
+    transform: rotate(20deg);
+}
+/*two*/
+.i2 {
+  width: 130px;
+}
+
+.i2a {
+  position: absolute;
+  z-index: 100;
+}
+
+.i2a>.stem.one {
+    left: 141px;
+    height: 204px;
+    top: 163px;
+}
+
+.i2a>.three {
+left: 32px;
+    top: 141px;
+    width: 70px;
+    transform: rotate(20deg);
+    background: black;
+}
+
+
+.i2a>.six {
+    top: 369px;
+    width: 70px;
+    left: 157px;
+    transform: rotate(109deg);
+}
+
+.i2a>.seven {
+    top: 360px;
+    width: 70px;
+    left: 119px;
+    transform: rotate(20deg);
+}
+/* top of the f */
+
+.i2b {
+  width: 130px;
+  position: absolute;
+  z-index: 0;
+}
+
+.i2b>.circle {
+    top: 79px;
+    left: 59px;
+}
+
+.i2b>.counter.two {
+    top: 99px;
+    left: 72px;
+}
+
+.i2b>.counter.three {
+    left: 38px;
+    top: 159px;
+    transform: rotate(19deg);
+    width: 120px;
+    height: 100px;
+}
+/*3*/
+.i3 {
+  width: 130px;
+}
+
+.i3>.circle {
+    width: 130px;
+    height: 180px;
+    top: 56px;
+    border-radius: 100px;
+    background: black;
+    left: 117px;
+}
+
+.i3>.counter.two {
+width: 90px;
+    height: 140px;
+    border-radius: 100px;
+    top: 73px;
+    left: 138px;
+}
+
+.i3>.counter.three {
+    height: 70px;
+    background: var(--negativeColor);
+    width: 70px;
+    left: 82px;
+    top: 78px;
+}
+.i3>.three {
+    left: 110px;
+    top: 86px;
+    width: 70px;
+    transform: rotate(20deg);
+}
+.i3>.four {
+    top: 140px;
+    width: 70px;
+    left: 70px;
+    transform: rotate(20deg);
+}
+.i3a {
+  width: 130px;
+}
+
+.i3a>.circle {
+    width: 130px;
+    height: 180px;
+    left: -106px;
+    top: 183px;
+    border-radius: 100px;
+    background: black;
+}
+
+.i3a>.counter.two {
+    width: 90px;
+    height: 140px;
+    border-radius: 100px;
+    top: 203px;
+    left: -86px;
+}
+
+.i3a>.counter.three {
+height: 70px;
+    background: var(--negativeColor);
+    width: 70px;
+    left: -117px;
+    top: 232px;
+}
+.i3a>.three {
+    left: -121px;
+    top: 227px;
+    width: 70px;
+    transform: rotate(20deg);
+}
+.i3a>.four {
+    top: 285px;
+    width: 70px;
+    left: -140px;
+    transform: rotate(20deg);
+}
+
+/*Four*/
+.i4 {
+  z-index: 100;
+}
+
+.i4>.stem.one {
+    height: 189px;
+    top: 151px;
+}
+.i4>.three {
+    left: -54px;
+    top: 215px;
+    width: 70px;
+    transform: rotate(20deg);
+    background: black;
+}
+
+.i4>.four {
+    top: 331px;
+    width: 70px;
+    left: -62px;
+    transform: rotate(20deg);
+}
+
+.i4>.five {
+    top: 174px;
+    width: 117px;
+    left: -67px;
+    transform: rotate(150deg);
+}
+/*Five*/
+.i5 {
+  left: 90px;
+}
+.i5>.one {
+    top: 160px;
+    left: -19px; 
+  }
+.i5>.two {
+  left:110px;  
+}
+.i5>.three {
+    left: -6px;
+    top: 163px;
+    width: 70px;
+    transform: rotate(20deg);
+}
+.i5>.four {
+    top: 266px;
+    width: 70px;
+    left: -145px;
+    transform: rotate(20deg);
+}
+.i5>.five {
+    top: 170px;
+    width: 70px;
+    left: 26px;
+    transform: rotate(109deg);
+}
+.i5>.counter {
+  height: 20px;
+  background: var(--negativeColor);
+}
+
+.i5>.stem {
+    height: 83px;
+}
+
+
+.i5a {
+  width: 130px;
+}
+
+.i5a>.circle {
+    top: 206px;
+    left: -10px;
+}
+
+.i5a>.counter.two {
+    top: 224px;
+    left: 5px;
+}
+
+.i5a>.counter.three {
+    left: -19px;
+    top: 228px;
+    transform: rotate(110deg);
+}
+/*Six*/
+.i6 {
+  left: 90px;
+}
+.i6>.one {
+    top: 55px;
+    left: -45px;
+}
+.i6>.two {
+  left:110px;  
+}
+.i6>.three {
+    left: -34px;
+    top: 62px;
+    width: 70px;
+    transform: rotate(20deg);
+}
+.i6>.four {
+   top: 200px;
+    width: 70px;
+    left: -115px;
+    transform: rotate(20deg);
+}
+
+.i6>.counter {
+  height: 20px;
+  background: var(--negativeColor);
+}
+
+.i6>.stem {
+    height: 245px;
+}
+
+/* O2 (for things like B's)*/
+
+.o5 {
+  width: 130px;
+}
+
+.o5>.circle {
+    top: 219px;
+    left: -47px;
+}
+
+.o5>.counter.two {
+    top: 239px;
+    left: -32px;
+}
+/*Seven*/
+.i7 {
+  left: 90px;
+}
+.i7>.one {
+    top: 119px;
+    left: -45px;
+}
+.i7>.two {
+  left:110px;  
+}
+.i7>.three {
+left: -93px;
+    top: 110px;
+    width: 97px;
+    transform: rotate(20deg);
+}
+.i7>.four {
+    left: -68px;
+    top: 194px;
+    width: 70px;
+    transform: rotate(20deg);
+}
+.i7>.five {
+    left: -129px;
+    top: 96px;
+    width: 70px;
+    transform: rotate(109deg);
+}
+.i7>.six {
+    left: -108px;
+    top: 303px;
+    width: 70px;
+    transform: rotate(20deg);
+}
+.i7>.seven {
+    left: -30px;
+    top: 210px;
+    width: 70px;
+    transform: rotate(109deg);
+}
+.i7>.eight {
+left: -104px;
+    top: 184px;
+    width: 70px;
+    transform: rotate(109deg);
+}
+/*Eight*/
+.i8 {
+  width: 130px;
+}
+
+.i8>.circle {
+top: 76px;
+    left: 121px;
+}
+.i8>.circle.two {
+    top: 199px;
+    left: 77px;
+}
+.i8>.counter.two {
+    top: 221px;
+    left: 90px;
+}
+
+.i8>.counter.three {
+    top: 243px;
+    left: 108px;
+}
+/*nine*/
+.i9 {
+  left: 90px;
+}
+.i9>.one {
+    top: 104px;
+    left: 122px;
+}
+.i9>.two {
+  left:110px;  
+}
+.i9>.three {
+    left: 137px;
+    top: 98px;
+    width: 70px;
+    transform: rotate(20deg);
+}
+.i9>.four {
+    top: 337px;
+    width: 70px;
+    left: 50px;
+    transform: rotate(20deg);
+}
+
+.i9>.counter {
+  height: 20px;
+  background: var(--negativeColor);
+}
+
+.i9>.stem {
+    height: 245px;
+}
+.o6 {
+  width: 130px;
+}
+
+.o6>.circle {
+top: 98px;
+    left: 51px;
+}
+
+.o6>.counter.two {
+    top: 117px;
+    left: 65px;
+}
 /* change our stroke width when a letter is hovered 
 
 .letter * {
