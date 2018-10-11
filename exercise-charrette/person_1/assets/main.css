@@ -1,0 +1,173 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* container */
+
+.container {
+	position: relative;
+}
+
+/* items */
+
+.item {
+	height: 250px;
+	width: 250px;
+	background: pink;
+	color: white;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+
+	cursor: pointer;
+}
+
+/* example button 1 */
+
+#button-1:hover {
+	transform: rotate(90deg) scale(1.5);
+	opacity: .3; 
+}
+
+#button-1:active {
+	background: pink;
+	opacity: 1;
+}
+
+/* example button 2 */
+
+#button-22::after {
+	content: 'hello';
+	color: white;
+}
+
+
+#button-22:hover::after {
+	content: 'I love you';
+	color: red;
+}
+
+/* example button 3 is changed only via js */
+
+/* example button 4 */
+#button-4.gradient-background {
+	background: linear-gradient(black, pink);
+	color: transparent;
+}
+
+/* example button 5 */
+.circle {
+	border-radius: 125px;
+}
+
+/* example button 6 */
+#button-6{
+	transition: none; 
+}
+#button-21 {
+	transition: none;
+}
+#button-8:hover,
+#button-8:focus {
+	-webkit-animation-name: shake;
+	-webkit-animation-duration: 0.8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+#button-8 {
+	transition: all 500ms ease; 
+
+}
+@-webkit-keyframes shake {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+#button-9 {
+	transition: all 500ms ease; 
+}
+#button-10 {
+	transition: all 500ms ease; 
+
+}
+
+#twentythree {
+	transition: all 500ms ease; 
+}
+#button-11 {
+	transition: none; 
+}
+#button-12:hover {
+	transform: skewY(80deg); 
+}
+#button-13 {
+	transition: none;
+}
+#button-14:hover{
+	transform: rotate(10deg);
+}
+#littlebox{
+	position: relative;
+	width: 10%;
+	height: 150px;
+	top: 340px;
+	opacity: .2;
+	background-color: blue;
+	z-index: 100;
+	left: 20px;
+}
+#button-15 {
+	transition: none;
+}
+#button-16 {
+	transition: none;
+}
+#button-17 {
+	transition: none;
+}
+#button-18:hover {
+	 background-color: red;
+}
+#button-19:hover {
+	transform: scale(1.5);
+}
+#button-20:hover {
+	transform: scale(.1);
+}
+#button-7:hover {
+	 background-color: blue; transform: scale(.1);
+}
+#button-21 {
+	transition: none;
+}
+#button-2:hover {
+	transform: scale(.5);
+}
+#button-23 {
+	transition: none; 
+}
+#button-24 {
+	transition: none; 
+}
+#button-25:hover {
+	transform: skewX(30deg);
+}
