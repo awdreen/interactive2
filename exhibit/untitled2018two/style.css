@@ -1,0 +1,93 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  height: 900px;
+  width: 900px;
+  background:url(https://cdn.glitch.com/cbf4a075-6017-478a-b5ae-d9529678837e%2Farttwo.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+  font-size: 90px;
+  font-family: 'Paytone One', sans-serif;
+}
+.button {
+	height: 60px;
+	width: 90px;
+	background: pink;
+	color: white;
+	top: 5px;
+  left: 5px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+  position: fixed;
+	cursor: pointer;
+}
+
+.full {
+  text-align: center;
+  font-size: 30px;
+}
+
+.image {
+  display: none;
+  position: fixed;
+  top: 100px;
+  left: 400px;
+  height: 500px;
+  width: 400px;
+  transform: rotate(50deg);
+}
+
+.button:focus ~ .image{
+  display: block;
+}
+
+.invisible {
+  width: 300px;
+  height: 300px;
+  background: white;
+  opacity: 0;
+}
+.text {
+  display:none;
+  font-size: 150px;
+  font-family: 'Paytone One', sans-serif;
+}
+
+.text#untitled {
+  transform: rotate(10deg);
+  font-size: 20px;
+  left:100px;
+  position: absolute;
+  color: white;
+}
+
+body.show-text .text {
+  display: block;
+}
+.text#about {
+  transform: rotate(190deg);
+  font-size: 70px;
+  left: 800px;
+  top: 300px;
+  position: absolute;
+  color: white;
+}
+.text#explosion {
+  transform: rotate(310deg);
+  font-size: 50px;
+  left: 10px;
+  position: absolute;
+  color: white;
+}
+a { color: white; }
+.button {
+  border-radius: 10px;
+  
+}

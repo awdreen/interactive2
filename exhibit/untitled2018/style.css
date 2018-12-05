@@ -1,0 +1,106 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  height: 900px;
+  width: 900px;
+  background:url(https://cdn.glitch.com/a824809b-7f89-4e12-b03e-09ba9170793f%2Fpicture.png?1542820740344);
+  background-size: cover;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+  font-size: 50px;
+  left: 100px;
+  position: absolute;
+  font-family: 'Paytone One', sans-serif;
+}
+.hide-title h1 {
+display: none;
+}
+
+.button {
+	height: 60px;
+	width: 90px;
+	background: pink;
+	color: white;
+	top: 5px;
+  left: 5px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+  position: fixed;
+	cursor: pointer;
+}
+
+.full {
+  text-align: center;
+  font-size: 30px;
+}
+
+.image {
+  display: none;
+  position: fixed;
+  top: 100px;
+  left: 800px;
+  height: 500px;
+  width: 350px;
+  transform: rotate(80deg);
+}
+
+.button:focus ~ .image{
+  display: block;
+}
+
+.invisible {
+  width: 200px;
+  height: 200px;
+  background: white;
+  opacity: 0;
+  position: absolute;
+  left: 900px;
+  top: 0px;
+  
+  
+}
+.text {
+  display:none;
+  font-size: 150px;
+  font-family: 'Paytone One', sans-serif;
+}
+
+.text#untitled {
+  transform: rotate(45deg);
+  font-size: 20px;
+  left: 100px;
+  top: 600px;
+  position: absolute;
+  color: white;
+}
+
+body.show-text .text {
+  display: block;
+}
+.text#about {
+  transform: rotate(75deg);
+  font-size: 70px;
+  left: 400px;
+  top: 400px;
+  position: absolute;
+  color: white;
+}
+.text#untitledtwo {
+  transform: rotate(20deg);
+  font-size: 50px;
+  left: 800px;
+  top: 80px;
+  position: absolute;
+  color: white;
+}
+a { color: white; }
+
+.button {
+  border-radius: 10px;
+}
