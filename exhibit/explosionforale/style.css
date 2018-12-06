@@ -17,6 +17,10 @@ body {
   position: absolute;
   font-family: 'Paytone One', sans-serif;
 }
+.hide-title h1 {
+display: none;
+}
+
 .button {
 	height: 60px;
 	width: 90px;

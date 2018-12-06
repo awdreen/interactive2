@@ -28,10 +28,12 @@ $(document).ready(function(){
   
   $('.invisible').mouseover(function(){
     $('body').addClass('show-text');
+    $('body').removeClass('hide-title');
   });
   
   $('button').click(function(){
     $('body').removeClass('show-text');
+    $('body').addClass('hide-title');
   });
 
 });
